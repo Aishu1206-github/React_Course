@@ -1,9 +1,9 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>First React code using CDN Links</title>
   </head>
   <body>
     <div id="root">
@@ -18,5 +18,11 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
+
+    <script>
+      const message= React.createElement('h1', {}, 'Hello From REACT')
+      const root= ReactDOM.createRoot(document.getElementById('root'))
+      root.render(message)
+    </script>
   </body>
-</html> -->
+</html>

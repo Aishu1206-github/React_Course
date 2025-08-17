@@ -3,9 +3,9 @@ import React from "react";
 function Banner() {
   return (
     <div
-      className='h-[70vh] md:h-[80vh] bg-cover bg-center flex items-end'
+      className='h-[60vh] md:h-[80vh] bg-cover bg-center flex items-end'
       style={{
-        backgroundImage: `url(https://m.media-amazon.com/images/M/MV5BMWZkNDRjNTQtNWE2Ni00MDc4LTlmNTEtYzIyNmUxM2ViZTFhXkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg)`,
+        backgroundImage: `url(https://static1.srcdn.com/wordpress/wp-content/uploads/2019/06/X-Men-Poster.jpg)`,
       }}
     >
         <div className="text-white text-xl font-sans text-center w-full bg-black-950/60 p-2">

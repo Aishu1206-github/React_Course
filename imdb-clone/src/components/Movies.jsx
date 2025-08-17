@@ -10,6 +10,8 @@ function Movies() {
   const[movies, setMovies] = useState([])
   const[pageNo, setPageNo] = useState(1)
 
+
+  //Pagination
   const handlePrev = () => {
     if (pageNo == 1) {
       setPageNo(1)
@@ -23,6 +25,7 @@ function Movies() {
     setPageNo(pageNo + 1)
   }
 
+  //get movie data throuogh API using axios
   useEffect(()=>{
     axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=b6e4cf9869384a8c164b6e0279aa877a&language=en-US&page=${pageNo}`).then(function(res) {
       setMovies(res.data.results)
@@ -51,4 +54,5 @@ function Movies() {
 
 export default Movies
 
-// https://api.themoviedb.org/3/movie/popular?api_key=b6e4cf9869384a8c164b6e0279aa877a&language=en-US&page=1
+
+// Moviw APT through TMDB =  https://api.themoviedb.org/3/movie/popular?api_key=b6e4cf9869384a8c164b6e0279aa877a&language=en-US&page=1

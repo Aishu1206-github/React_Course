@@ -55,27 +55,8 @@ function Watchlist() {
                 Delete
               </td>
             </tr>
-            <tr className="border-b-2">
-              <td className="flex items-center px-6 py-4">
-                <img
-                  className="h-[6rem] w-[10rem]"
-                  src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh3Zc8nSze5S8vtzX49maUGoedcdli-2aj-Q&s`}
-                />
-                <div className="mx-10"> <b> The Matrix </b> </div>
-              </td>
-              <td>
-                  8.5
-              </td>
-              <td> 
-                  9
-              </td>
-              <td> 
-                Action
-              </td>
-              <td className="text-red-800 "> 
-                Delete
-              </td>
-            </tr>
+
+            
           </tbody>
         </table>
       </div>

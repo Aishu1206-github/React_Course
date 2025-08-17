@@ -6,12 +6,15 @@ import Hello from './components/hello'
 import Hello2 from './components/Hello2'
 import Counter from './components/Counter'
 import Form from './components/Form'
+import Ue1 from './components/Ue1'
 
 
 function App() {
   return (
     <>
-    <Form/>
+     <Form/> 
+     <Ue1/>
+
     </>
   )
 }
